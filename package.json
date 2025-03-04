@@ -1,5 +1,5 @@
 {
-  "name": "nprogress",
+  "name": "es-nprogress",
   "author": "Rico Sta. Cruz <hi@ricostacruz.com>",
   "description": "Simple slim progress bars",
   "version": "0.2.0",
@@ -10,7 +10,9 @@
   "scripts": {
     "test": "mocha"
   },
+  "files": ["nprogress.js", "nprogress.css", "index.d.ts"],
   "main": "nprogress.js",
+  "types": "index.d.ts",
   "license": "MIT",
   "devDependencies": {
     "chai": "~1.6.1",
